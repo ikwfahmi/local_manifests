@@ -4,9 +4,16 @@
 
         <remote name="Iverz"
         fetch="https://github.com/asterixiverz" />
+        <remote name="PongDevelopment"
+        fetch="https://github.com/Pong-Development" />
 
         <!-- Sync trees -->
-        <project path="device/xiaomi/fog" name="device_xiaomi_fog" remote="Iverz" revision="afterlife14-qpr2" />
+        <project path="device/nothing/Pong" name="device_nothing_Pong" remote="Iverz" revision="afl14" />
+        <project path="vendor/nothing/Pong" name="vendor_nothing_Pong" remote="Iverz" revision="14" />
+        <project path="kernel/nothing/sm8475" name="AgBKartikey/android_kernel_nothing_sm8475" remote="github" revision="lineage-21" />
+
+        <!-- Sync Important Repositories -->
+        <project path="packages/apps/ParanoidGlyphPhone2" name="packages_apps_ParanoidGlyph" remote="PongDevelopment" revision="14" />
 
         <!-- Private keys -->
         <project path="vendor/after-priv/keys" name="vendor_sign" remote="Iverz" revision="afterlife14" />
