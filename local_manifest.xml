@@ -2,7 +2,7 @@
 
 <manifest>
 
-  <remote name="elab"
+  <remote name="kenkyou"
           fetch="https://github.com/ikwfahmi" />
 
         <!-- Sync trees -->
