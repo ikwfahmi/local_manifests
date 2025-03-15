@@ -9,7 +9,7 @@
       
         <project path="device/asus/X00TD" name="device" remote="kenkyou" revision="vic" />
 
-        <project path="device/asus/sdm660-common" name="common" remote="kenkyou" revision="15.0" />
+        <project path="device/asus/sdm660-common" name="common" remote="kenkyou" revision="15" />
     
         <project path="vendor/asus" name="proprietary_vendor_asus-4.19" remote="kenkyou" revision="15.0" /> 
 
