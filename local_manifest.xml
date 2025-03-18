@@ -2,10 +2,10 @@
 
 <manifest>
 
-  <remote name="elab"
-          fetch="https://github.com/electrolaboratory" />
+  <remote name="kenkyou"
+          fetch="https://github.com/ikwfahmi" />
 
         <!-- Sync trees -->
-        <project path="device/asus/X00TD" name="device" remote="elab" revision="axi" />
+        <project path="device/asus/X00TD" name="device" remote="kenkyou" revision="axi" />
 
 </manifest>
