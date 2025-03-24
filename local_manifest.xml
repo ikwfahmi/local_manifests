@@ -2,19 +2,43 @@
 
 <manifest>
 
-        <remote name="kenkyou"
-        fetch="https://github.com/ikwfahmi" />
-        <remote name="Ballsszz"
-        fetch="https://github.com/MrHanzz00001" />
-
+  <!-- remote name="Kendras056"
+          fetch="https://github.com/Kendras056" /-->
+  <remote name="strongreasons"
+          fetch="https://github.com/strongreasons" />
+  <remote name="Tiktodz"
+          fetch="https://github.com/Tiktodz" />
+  <!-- remote name="ImSurajxD"
+          fetch="https://gitlab.com/ImSurajxD" /-->
+  <!-- remote name="los"
+          fetch="https://github.com/LineageOS" /-->
+  
         <!-- Sync trees -->
-      
-        <project path="device/asus/X00TD" name="android_device_asus_X00TD-4.19" remote="kenkyou" revision="15.0" />
+        <project path="device/asus/X00T" name="device_asus_X00T" remote="Tiktodz" revision="13/hmp" />
+        <!-- project path="vendor/asus" name="Tiktodz/android_vendor_asus" remote="github" revision="blaze" />
+        <project path="kernel/asus/sdm660" name="strongreasons/android_kernel_asus_sdm660" remote="github" revision="13" />
+        <project path="device/asus/sdm660-common" name="Tiktodz/common_backup" remote="github" revision="loud" /-->
 
-        <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common-4.19" remote="kenkyou" revision="15.0" />
+        <!-- HALs -->
+        <!-- remove-project name="android_hardware_qcom_audio" />
+        <remove-project name="android_hardware_qcom_display" />
+        <remove-project name="android_hardware_qcom_media" />
+        <project path="hardware/qcom-caf/msm8998/audio" name="Tiktodz/android_hardware_qcom_audio" remote="github" revision="14" />
+        <project path="hardware/qcom-caf/msm8998/display" name="Kendras056/android_hardware_qcom-caf_msm8998_display" remote="github" revision="13" />
+        <project path="hardware/qcom-caf/msm8998/media" name="Kendras056/android_hardware_qcom-caf_msm8998_media" remote="github" revision="13" /-->
 
-        <project path="vendor/asus" name="proprietary_vendor_asus-4.19" remote="Ballsszz" revision="15.0" />
+        <!-- Fwb -->
+        <!-- remove-project name="crdroidandroid/android_frameworks_base" />
+        <project path="frameworks/base" name="frameworks_base" remote="strongreasons" revision="13.0" /-->
 
-        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="kenkyou" revision="master" />
+        <!-- Toolchain Clang -->
+        <!-- project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d" remote="gitlab" revision="master" clone-depth="1" /-->
 
+        <!-- Power -->
+        <!-- remove-project name="LineageOS/android_vendor_qcom_opensource_power" />
+        <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="strongreasons" revision="lineage-20.0" /-->
+
+        <!-- remove-project name="LineageOS/android_external_chromium-webview_prebuilt_arm64" />
+        <project path="external/chromium-webview/prebuilt/arm64" name="android_external_chromium-webview_prebuilt_arm64" remote="los" revision="backup/main_20230314" /-->
+  
 </manifest>
