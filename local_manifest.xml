@@ -4,8 +4,6 @@
 
   <remote name="kenkyou"
           fetch="https://github.com/ikwfahmi" />
-  <remote name="Tiktodz"
-          fetch="https://github.com/Tiktodz" />
 
         <!-- Sync trees -->
         <project path="device/asus/X00T" name="device_asus_X00T" remote="kenkyou" revision="tiramisu" />
