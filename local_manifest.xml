@@ -6,6 +6,6 @@
           fetch="https://github.com/ikwfahmi" />
 
         <!-- Sync trees -->
-        <project path="device/asus/X00TD" name="device" remote="kenkyou" revision="mist" />
+        <project path="device/asus/X00TD" name="device" remote="kenkyou" revision="rve" />
 
 </manifest>
