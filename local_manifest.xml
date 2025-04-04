@@ -6,6 +6,6 @@
           fetch="https://github.com/ikwfahmi" />
 
         <!-- Sync trees -->
-        <project path="device/asus/X00TD" name="device" remote="kenkyou" revision="bliss" />
+        <project path="device/asus/X00TD" name="android_device_asus_X00TD-4.19" remote="kenkyou" revision="bliss" />
 
 </manifest>
