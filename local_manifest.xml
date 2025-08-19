@@ -2,20 +2,19 @@
 
 <manifest>
 
-        <remote name="Iverz"
-        fetch="https://github.com/asterixiverz" />
-        <remote name="PongDevelopment"
-        fetch="https://github.com/Pong-Development" />
+        <remote name="Kyura"
+        fetch="https://github.com/Kyura-Playground" />
+        <remote name="SukiSU-Ultra"
+        fetch="https://github.com/SukiSU-Ultra" />
 
         <!-- Sync trees -->
-        <project path="device/nothing/Pong" name="device_nothing_Pong" remote="Iverz" revision="afl14" />
-        <project path="vendor/nothing/Pong" name="vendor_nothing_Pong" remote="Iverz" revision="14" />
-        <project path="kernel/nothing/sm8475" name="AgBKartikey/android_kernel_nothing_sm8475" remote="github" revision="lineage-21" />
-
-        <!-- Sync Important Repositories -->
-        <project path="packages/apps/ParanoidGlyphPhone2" name="packages_apps_ParanoidGlyph" remote="PongDevelopment" revision="14" />
+        <project path="device/asus/X00TD" name="android_device_asus_X00TD-4.19" remote="Kyura" revision="16.0" />
+        <project path="vendor/asus" name="proprietary_vendor_asus-4.19" remote="Kyura" revision="15.0" />
+        <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="Kyura" revision="susfs-staging" />
+        <project path="kernel/asus/sdm660/KernelSU" name="SukiSU-Ultra" remote="SukiSU-Ultra" revision="susfs-main" />
+        <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common-4.19" remote="Kyura" revision="16.0" />
 
         <!-- Private keys -->
-        <project path="vendor/after-priv/keys" name="vendor_sign" remote="Iverz" revision="afterlife14" />
+        <project path="vendor/lineage-priv/keys/" name="public-keys" remote="Kyura" revision="main" />
 
 </manifest>
