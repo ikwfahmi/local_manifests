@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <manifest>
-
+        
+        <remote name="ikwfahmi"
+                fetch="https://github.com/ikwfahmi" />
         <remote name="Kyura"
-        fetch="https://github.com/Kyura-Playground" />
+                fetch="https://github.com/Kyura-Playground" />
+        <remote name="Project"
+                 fetch="https://github.com" />
 
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="android_device_asus_X00TD-4.19" remote="Kyura" revision="Evox14" clone-depth="1" />
