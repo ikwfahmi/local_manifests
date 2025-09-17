@@ -3,7 +3,7 @@
 <manifest>
 
         <remote name="Kyura"
-        fetch="https://github.com/Kyura-Playground" />
+        fetch="https://github.com/Kyura-Ground" />
         <remote name="rsu" 
         fetch="https://github.com/rsuplaygrnd" />
 
