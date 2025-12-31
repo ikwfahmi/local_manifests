@@ -7,7 +7,7 @@ git clone -b main https://github.com/ikwfahmi/local_manifests.git .repo/local_ma
 
 Then sync with ROM source or sync standalone with this command:
 ```bash
-repo sync
+repo sync -c --force-sync --optimized-fetch --no-tags --no-clone-bundle --prune -j$(nproc --all)
 ```
 
 **Credit:**
