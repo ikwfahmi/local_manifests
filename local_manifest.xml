@@ -9,7 +9,7 @@
 
         <!-- Sync trees -->
         <project path="device/asus/X00T" name="device_asus_X00T" revision="13/hmp" remote="Kyura" clone-depth="1" />
-        <project path="vendor/asus" name="vendor_asus" revision="15.0" remote="Kyura" clone-depth="1" />
+        <project path="vendor/asus" name="vendor_asus" revision="13-hmp" remote="Kyura" clone-depth="1" />
         <project path="device/asus/X00TD-kernel" name="android_device_asus_X00TD-kernel" revision="main" remote="Kyura" clone-depth="1" />
         <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636" revision="4.4-hmp" remote="ikwfahmi" clone-depth="1" clone-submodules="true" />
         <!--
