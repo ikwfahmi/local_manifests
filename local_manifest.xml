@@ -12,9 +12,11 @@
         <project path="vendor/asus" name="vendor_asus" revision="15.0" remote="Kyura" clone-depth="1" />
         <project path="device/asus/X00TD-kernel" name="android_device_asus_X00TD-kernel" revision="main" remote="Kyura" clone-depth="1" />
         <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636" revision="4.4-hmp" remote="ikwfahmi" clone-depth="1" clone-submodules="true" />
+        <!--
         <project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom-caf_msm8998_audio" revision="tea-caf-msm8998" remote="Kyura" clone-depth="1" />
         <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_msm8998_display" revision="los" remote="Kyura" clone-depth="1" />
         <project path="hardware/qcom-caf/msm8998/media" name="hardware_qcom-caf_msm8998_media" revision="tea-caf-msm8998" remote="Kyura" clone-depth="1" />
+        -->
         <!-- Private keys -->
         <project path="vendor/lineage-priv/keys" name="public-keys" remote="Kyura" revision="main" clone-depth="1" />
 
