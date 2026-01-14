@@ -8,8 +8,11 @@
         fetch="https://github.com/ikwfahmi" />
 
         <!-- Sync trees -->
-        <project path="device/asus/X00T" name="device_asus_X00T" revision="13/hmp" remote="Kyura" clone-depth="1" />
-        <project path="vendor/asus" name="vendor_asus" revision="13-hmp" remote="Kyura" clone-depth="1" />
+        <project path="device/asus/X00T" name="device_asus_X00T" revision="13.0" remote="ikwfahmi" clone-depth="1" />
+        <project path="vendor/asus" name="vendor_asus" revision="13.0" remote="ikwfahmi" clone-depth="1" />
+        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636" revision="eastzy" remote="ikwfahmi" clone-depth="1" clone-submodules="true" />
+       
+        
         <!-- Private keys -->
         <project path="vendor/lineage-priv/keys" name="public-keys" remote="Kyura" revision="main" clone-depth="1" />
 
