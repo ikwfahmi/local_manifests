@@ -6,12 +6,14 @@
         fetch="https://github.com/Kyura-Ground" />
         <remote name="ikwfahmi"
         fetch="https://github.com/ikwfahmi" />
+        <remote name="rissu"
+        fetch="https://github.com/rsuntk" />
 
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="android_device_asus_X00TD-4.19" revision="16.0" remote="ikwfahmi" clone-depth="1" />
         <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common-4.19" revision="16.0" remote="ikwfahmi" clone-depth="1" />
         <project path="vendor/asus" name="android_vendor_asus-sdm660" revision="15.0" remote="ikwfahmi" clone-depth="1" />
-        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" revision="Lineage" remote="ikwfahmi" clone-depth="1" clone-submodules="true" />
+        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" revision="master" remote="rissu" clone-depth="1" clone-submodules="true" />
 
         <!-- Private keys -->
         <project path="vendor/lineage-priv/keys" name="public-keys" remote="Kyura" revision="main" clone-depth="1" />
