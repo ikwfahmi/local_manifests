@@ -10,7 +10,7 @@
         fetch="https://github.com/X00TD-Dev" />
 
         <!-- Sync trees -->
-        <project path="device/asus/X00TD" name="android_device_asus_X00TD-4.19" revision="Halcyon-16" remote="ikwfahmi" clone-depth="1" />
+        <project path="device/asus/X00TD" name="android_device_asus_X00TD-4.19" revision="Evox-16" remote="ikwfahmi" clone-depth="1" />
         <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common-4.19" revision="16.0" remote="ikwfahmi" clone-depth="1" />
         <project path="vendor/asus" name="android_vendor_asus-sdm660" revision="15.0" remote="ikwfahmi" clone-depth="1" />
         <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" revision="main" remote="ikwfahmi" clone-depth="1" clone-submodules="true" />
