@@ -6,8 +6,6 @@
         fetch="https://github.com/Kyura-Ground" />
         <remote name="ikwfahmi"
         fetch="https://github.com/ikwfahmi" />
-        <remote name="dev"
-        fetch="https://github.com/X00TD-Dev" />
 
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="android_device_asus_X00TD-4.19" revision="Evox-16" remote="ikwfahmi" clone-depth="1" />
