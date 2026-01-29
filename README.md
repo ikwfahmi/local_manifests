@@ -2,7 +2,7 @@
 To initialize your device trees setup, use command:
 
 ```bash
-git clone -b main https://github.com/ikwfahmi/local_manifests.git .repo/local_manifests
+git clone -b Infinity-16 https://github.com/ikwfahmi/local_manifests.git .repo/local_manifests
 ```
 
 Then sync with ROM source or sync standalone with this command:
