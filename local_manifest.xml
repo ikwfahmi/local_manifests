@@ -8,8 +8,8 @@
         fetch="https://github.com/ikwfahmi" />
 
         <!-- Sync trees -->
-        <project path="device/asus/X00TD" name="android_device_asus_X00TD-4.19" revision="16.0" remote="ikwfahmi" clone-depth="1" />
-        <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common-4.19" revision="16.0" remote="ikwfahmi" clone-depth="1" />
+        <project path="device/asus/X00TD" name="android_device_asus_X00TD-4.19" revision="Clover-16" remote="ikwfahmi" clone-depth="1" />
+        <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common-4.19" revision="16.1" remote="ikwfahmi" clone-depth="1" />
         <project path="vendor/asus" name="proprietary_vendor_asus-4.19" revision="16.0" remote="ikwfahmi" clone-depth="1" />
         <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" revision="main" remote="ikwfahmi" clone-depth="1" clone-submodules="true" />
 
